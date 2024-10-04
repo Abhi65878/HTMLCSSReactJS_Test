@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.right {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.footer-logo h3 {
+  font-family: Comfortaa;
+}
+.footer-logo .logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.footer-column {
+  margin-right: 40px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  color: #bbb;
+}
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer-buttons .login-btn {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+/* Footer bottom section */
+.footer-bottom {
+  border-top: 1px solid #555;
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.footer-bottom p {
+  color: #bbb;
+  font-size: 0.85rem;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons p {
+  margin-right: 1rem;
+}
+
+.social-icons .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-buttons {
+    flex-direction: row;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
